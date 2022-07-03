@@ -1,6 +1,6 @@
 {
   "name": "make-emitted",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helps to make the object emit using a proxy",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

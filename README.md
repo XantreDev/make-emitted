@@ -1,7 +1,9 @@
-#Small and simple event emitter
+# Small and simple event emitter
+---
 ![Size](https://badgen.net/bundlephobia/minzip/make-emitted@1.0.0)
 ![Dependecies count](https://badgen.net/bundlephobia/dependency-count/make-emitted@1.0.0)
 ![Npm](https://badgen.net/npm/v/make-emitted)
+---
 **Uses ES6 Proxies**
 
 Works pretty easy
