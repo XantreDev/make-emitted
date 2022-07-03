@@ -9,5 +9,5 @@
         "sourceMap": true,
         "lib": ["ESNext"]
     },
-    "include": ["index.ts"]
+    "include": ["src"]
 }

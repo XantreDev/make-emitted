@@ -14,7 +14,8 @@ type Emitter<T extends object> = {
 
 type WithEmitter<T extends object> = Emitter<T> & T;
 
-const getUniqueId = () => +((+new Date()).toString() + Math.round(Math.random() * 10000))
+const getUniqueId = () =>
+  +((+new Date()).toString() + Math.round(Math.random() * 10000));
 
 export const makeEmitted = <T extends { [key in any]: any }>(target: T) =>
   new Proxy(
